@@ -1,0 +1,29 @@
+.header__navigation {
+    color: #fff;
+    background-color: rgb(0, 114, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+
+    .header__navigation__logo {
+        margin: 0;
+    }
+
+    .header__navigation__user-menu-container {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        .header__navigation__user-menu__icon {        
+            background-color: #fff;
+            padding: 8px 10px;
+            border-radius: 40px;
+            color: rgb(0, 28, 77);
+        }
+
+        .header__navigation__user-menu__arrow {
+            margin-left: .5rem;
+        }
+    }
+}
